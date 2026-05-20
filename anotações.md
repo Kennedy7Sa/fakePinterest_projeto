@@ -1,7 +1,7 @@
 ## Bibliotecas 
-flask-login  para login 
+- flask-login  para login 
 
-flask-bcrypt para criptografia 
+- flask-bcrypt para criptografia 
 
 ## Criar chaves secretas com a lib secrets 
 
