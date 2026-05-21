@@ -10,13 +10,28 @@
         {% endblock %}
     </title>
 </head>
+{% block body %}
 
 <body>
+    {% block formulario %}
+    <form method="POST" action="">
+        {{ form.csrf_token }}
 
-    {% block body %}
+        {{ form.email.label() }}
+        {{ form.email }}
 
-    Fake pinterest!
+        {{ form.senha.label() }}
+        {{ form.senha }}
+
+        {{ form.botao_confirmacao }}
+
+
+    </form>
     {% endblock %}
+
+
+
 </body>
+{% endblock %}
 
 </html>

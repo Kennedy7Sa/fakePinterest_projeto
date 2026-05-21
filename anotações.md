@@ -1,7 +1,8 @@
 ## Bibliotecas 
 - flask-login  para login 
-
 - flask-bcrypt para criptografia 
+- flask-wtf para trabalhar com formularios 
+- email_validator para validações de email 
 
 ## Criar chaves secretas com a lib secrets 
 
